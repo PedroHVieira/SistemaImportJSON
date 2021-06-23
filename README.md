@@ -45,27 +45,27 @@ Relatório de Possíveis Doadores por tipo sanguíneo: A quantidade de possívei
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-PADRÃO DO ARQUIVO JSON
-[
-	{
-		"nome": "Doadora Teste 1",
-		"cpf": "111.111.111-11",
-		"rg": "44.084.541-5",
-		"data_nasc": "23\/05\/1964",
-		"sexo": "Feminino",
-		"mae": "Mãe do Fulano",
-		"pai": "Pai do Fulano",
-		"email": "email@teste.teste",
-		"cep": "39801-678",
-		"endereco": "Rua Kurt W. Rothe",
-		"numero": 675,
-		"bairro": "Castro Pires",
-		"cidade": "Teófilo Otoni",
-		"estado": "MG",
-		"telefone_fixo": "(33) 1111-1111",
-		"celular": "(33) 1111-11111",
-		"altura": 1.53,
-		"peso": 80,
-		"tipo_sanguineo": "O-"
-	}
-]
+<strong>PADRÃO DO ARQUIVO JSON</strong>
+[<br>
+	{<br>
+		"nome": "Doadora Teste 1",<br>
+		"cpf": "111.111.111-11",<br>
+		"rg": "44.084.541-5",<br>
+		"data_nasc": "23\/05\/1964",<br>
+		"sexo": "Feminino",<br>
+		"mae": "Mãe do Fulano",<br>
+		"pai": "Pai do Fulano",<br>
+		"email": "email@teste.teste",<br>
+		"cep": "39801-678",<br>
+		"endereco": "Rua Kurt W. Rothe",<br>
+		"numero": 675,<br>
+		"bairro": "Castro Pires",<br>
+		"cidade": "Teófilo Otoni",<br>
+		"estado": "MG",<br>
+		"telefone_fixo": "(33) 1111-1111",<br>
+		"celular": "(33) 1111-11111",<br>
+		"altura": 1.53,<br>
+		"peso": 80,<br>
+		"tipo_sanguineo": "O-"<br>
+	}<br>
+]<br>
