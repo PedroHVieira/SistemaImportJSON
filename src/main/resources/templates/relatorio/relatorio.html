@@ -1,0 +1,57 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<title>Relatórios</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link
+	href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700'
+	rel='stylesheet' type='text/css'>
+<div th:replace="fragments/imports :: links"></div>
+
+<link th:href="@{/css/navbar/style.css}" rel="stylesheet" />
+
+
+</head>
+<body>
+
+	<section th:replace="fragments/header:: navbar"></section>
+
+	<!-- MAIN -->
+	<div class="col">
+		<main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4 pt-3">
+			<div
+				class="main-title d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Relatórios</h1>
+
+			</div>
+
+			<div class="continer">
+				<div class="row">
+					<div id="main" style="width: 600px; height: 400px;"
+						class="col-md-6 col-sm-12 col-xs-12 "></div>
+					<div id="idade" style="width: 600px; height: 400px;"
+						class="col-md-6 col-sm-12 col-xs-12 "></div>
+				</div>
+				<div class="row mt-3">
+					<div id="sangue" style="width: 600px; height: 400px;"
+						class="col-md-6 col-sm-12 col-xs-12 "></div>
+					<div id="doador" style="width: 600px; height: 400px;"
+						class="col-md-6 col-sm-12 col-xs-12 mt-3"></div>
+				</div>
+			</div>
+
+
+		</main>
+	</div>
+	<!-- Main Col END -->
+
+	<div th:replace="fragments/imports :: scripts"></div>
+	<script type="text/javascript" th:src="@{/js/relatorios/relatorios.js}"></script>
+	<footer th:replace="fragments/footer :: footer"
+		class="bg-light text-center text-lg-start footer"></footer>
+</body>
+</html>

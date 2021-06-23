@@ -1,0 +1,39 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<div class="row">
+	<div class="col-xs-12 col-sm-12 overflow-x">
+		<table class="table-striped width-100 display compact"  id="tabela_candidatos">
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>CPF</th>
+					<th>Email</th>
+					<th>Celular</th>
+					<th>Sexo</th>
+					<th>Tipo Sanguineo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="item : ${lista}">
+					<td th:text="${item.nome}"></td>
+					<td th:text="${item.cpf}"></td>
+					<td th:text="${item.email}"></td>
+					<td th:text="${item.celular}"></td>
+					<td th:text="${item.sexo}"></td>
+					<td th:text="${item.tipo_sanguineo}"></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>Nome</th>
+					<th>CPF</th>
+					<th>Email</th>
+					<th>Celular</th>
+					<th>Sexo</th>
+					<th>Tipo Sanguineo</th>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</div>

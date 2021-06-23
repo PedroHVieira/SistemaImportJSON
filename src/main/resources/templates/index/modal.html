@@ -1,0 +1,36 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<form class="" method="POST" th:object="${user}"
+	th:action="@{/minha_cotna/atualizar_senha}">
+	<input id=user type="hidden" th:field="*{id}" th:value="${user.id}">
+
+	<div class="modal-header header-modal">
+		<h4 class="modal-title" id="motalTitulo"></h4>
+		<div class="clearfix"></div>
+	</div>
+	<div class="modal-body">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0">
+					<div class="form-group ">
+						<label for="">Arquivo</label> <input type="file"
+							class="form-control-file" id="uploadFile" placeholder=""
+							name="uploadFile"
+							accept="application/json">
+						<span class="error-sub-text text-errorP" style="display: none">*O
+							arquivo deve ser menor que 2MB...<br>
+						</span> <span class="error-sub-text text-errorP" style="display: none">*O
+							arquivo deve ser um arquivo JSON</span>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12 m-0" id="listFiles"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal-footer">
+		<button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+		<button type="button" class="btn btn-primary" id="salvarUpload">Salvar</button>
+	</div>
+</form>
