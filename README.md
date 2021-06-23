@@ -16,14 +16,14 @@ Sistema web sistema web que receba um JSON com os dados e mostre os seguintes re
 ---------------------------------------------------------------------------------------------------------------------------
 
 <strong>INFORMAÇÕES IMPORTANTES:</strong><br>
-- USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO)<br>
+- <strong>USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO)</strong><br>
 	<strong>Usuário</strong>: admin@admin.com<br>
 	<strong>Senha</strong>: admin<br><br>
-- DADOS PARA CONEXÃO DO BANCO DE DADOS <br>
+- <strong>DADOS PARA CONEXÃO DO BANCO DE DADOS</strong> <br>
 	url: localhost:3306/wk?createDatabaseIfNotExist=true&useSSL=false<br>
 	username: root<br>
 	password:<br><br>
-- OS DADOS DE CONEXÃO PODEM SER ALTERADOS NO ARQUIVO ‘src\main\resources\application.properties’<br>
+- <strong>OS DADOS DE CONEXÃO PODEM SER ALTERADOS NO ARQUIVO ‘src\main\resources\application.properties’</strong><br>
 
 ---------------------------------------------------------------------------------------------------------------------------
 
