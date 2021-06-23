@@ -8,14 +8,14 @@ Sistema web sistema web que receba um JSON com os dados e mostre os seguintes re
 - A quantidade de possíveis doadores para cada tipo sanguíneo receptor.<br>
 ---------------------------------------------------------------------------------------------------------------------------
 
-PASSOS NECESSÁRIO PARA EXECUÇÃO DO MESMO:<br>
+<strong>PASSOS NECESSÁRIO PARA EXECUÇÃO DO MESMO:</strong><br>
 1-BAIXAR O PROJETO<br>
 2-IMPORTAR O PROJETO NO SEU WORKSPACE SPRING<br>
 3-INICIALIZAR O MYSQL LOCALMENTE (UTILIZANDO O XAMPP OU ALGUM PROGRAMA SIMILAR)<br>
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-INFORMAÇÕES IMPORTANTES:<br>
+<strong>INFORMAÇÕES IMPORTANTES:</strong><br>
 USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO)<br>
 	<br>
 	<strong>Usuário</strong>: admin@admin.com<br>
@@ -28,16 +28,16 @@ USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-ROTEIRO:<br>
-1)HOME <br>
+<strong>ROTEIRO</strong>:<br>
+<strong>1)HOME</strong> <br>
 Tela destinado para fazer o import do arquivo data.json <br>
 Apresenta o primeiro relatório do sistema, mostrando quantos candidatos foram cadastrados, sendo este dividido por estado<br>
 
-2)CANDIDATOS<br>
+<strong>2)CANDIDATOS</strong><br>
 Tela destinada para listar todos os candidatos salvos no banco de dados.<br>
 Apresenta alguns campos para fazer pesquisas dentre os dados apresentados<br>
 
-3)RELATÓRIOS<br>
+<strong>3)RELATÓRIOS</strong><br>
 Tela destinada para apresentar os restantes do relatórios<br>
 Relatório de Obesidade: O percentual de obesos entre os homens e entre as mulheres. (É obeso quem tem IMC >30)<br>
 Relatório de IMC Médio por idade: IMC médio em cada faixa de idade de dez em dez anos: 0 a 10; 11 a 20; 21 a 30, etc. (IMC = peso / altura^2)<br>
