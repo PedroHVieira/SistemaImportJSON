@@ -9,7 +9,7 @@ Sistema web sistema web que receba um JSON com os dados e mostre os seguintes re
 ---------------------------------------------------------------------------------------------------------------------------
 
 <strong>PASSOS NECESSÁRIO PARA EXECUÇÃO DO MESMO:</strong><br>
-1-BAIXAR E/OU CLONAR O PROJETO<br>
+1-BAIXAR OU CLONAR O PROJETO<br>
 2-IMPORTAR O PROJETO NO SEU WORKSPACE SPRING<br>
 3-INICIALIZAR O MYSQL LOCALMENTE (UTILIZANDO O XAMPP, WAMPP OU ALGUM PROGRAMA SIMILAR)<br>
 
