@@ -1,4 +1,4 @@
-DESCRIÇÃO: Uma agência de banco de sangue forneceu uma lista de candidatos a doadores e precisa de um sistema que processe esses dados para extrair algumas informações. 
+Uma agência de banco de sangue forneceu uma lista de candidatos a doadores e precisa de um sistema que processe esses dados para extrair algumas informações. 
 
 Sistema web sistema web que receba um JSON com os dados e mostre os seguintes resultados: 
 Quantos candidatos temos nessa lista em cada estado do Brasil? 
