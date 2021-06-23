@@ -1,6 +1,6 @@
 Uma agência de banco de sangue forneceu uma lista de candidatos a doadores e precisa de um sistema que processe esses dados para extrair algumas informações. 
 
-Sistema web sistema web que receba um JSON com os dados e mostre os seguintes resultados: 
+Sistema web sistema web que receba um JSON com os dados e mostre os seguintes resultados:<br>
 Quantos candidatos temos nessa lista em cada estado do Brasil? 
 IMC médio em cada faixa de idade de dez em dez anos: 0 a 10; 11 a 20; 21 a 30, etc. (IMC = peso / altura^2) 
 Qual o percentual de obesos entre os homens e entre as mulheres? (É obeso quem tem IMC >30)
