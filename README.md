@@ -45,7 +45,7 @@ Relatório de Possíveis Doadores por tipo sanguíneo: A quantidade de possívei
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-<strong>PADRÃO DO ARQUIVO JSON</strong>
+<strong>PADRÃO DO ARQUIVO JSON</strong><br>
 [<br>
 	{<br>
 		"nome": "Doadora Teste 1",<br>
