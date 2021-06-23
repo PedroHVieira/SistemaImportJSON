@@ -16,9 +16,10 @@ PASSOS NECESSÁRIO PARA EXECUÇÃO DO MESMO:<br>
 ---------------------------------------------------------------------------------------------------------------------------
 
 INFORMAÇÕES IMPORTANTES:<br>
--USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO)<br>
-	Usuário: admin@admin.com<br>
-	Senha: admin<br>
+USUÁRIO PADRÃO DO SISTEMA (SERÁ CRIADO JUNTAMENTE COM A EXECUÇÃO DO PROJETO)<br>
+	<br>
+	<strong>Usuário</strong>: admin@admin.com<br>
+	<strong>Senha</strong>: admin<br>
 - DADOS PARA CONEXÃO DO BANCO DE DADOS <br>
 	url: localhost:3306/wk?createDatabaseIfNotExist=true&useSSL=false<br>
 	username: root<br>
