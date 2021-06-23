@@ -43,4 +43,29 @@ Relatório de IMC Médio por idade: IMC médio em cada faixa de idade de dez em 
 Relatório de Média de Idade por tipo sanguíneo: média de idade para cada tipo sanguíneo.<br>
 Relatório de Possíveis Doadores por tipo sanguíneo: A quantidade de possíveis doadores para cada tipo sanguíneo receptor<br>
 
+---------------------------------------------------------------------------------------------------------------------------
 
+PADRÃO DO ARQUIVO JSON
+[
+	{
+		"nome": "Doadora Teste 1",
+		"cpf": "111.111.111-11",
+		"rg": "44.084.541-5",
+		"data_nasc": "23\/05\/1964",
+		"sexo": "Feminino",
+		"mae": "Mãe do Fulano",
+		"pai": "Pai do Fulano",
+		"email": "email@teste.teste",
+		"cep": "39801-678",
+		"endereco": "Rua Kurt W. Rothe",
+		"numero": 675,
+		"bairro": "Castro Pires",
+		"cidade": "Teófilo Otoni",
+		"estado": "MG",
+		"telefone_fixo": "(33) 1111-1111",
+		"celular": "(33) 1111-11111",
+		"altura": 1.53,
+		"peso": 80,
+		"tipo_sanguineo": "O-"
+	}
+]
